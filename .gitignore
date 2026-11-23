@@ -1,0 +1,17 @@
+# Local runtime & private config files (NEVER commit!)
+AppConfig.data
+config_*.data
+*.log
+debug.log
+.env
+*.secret
+*.key
+
+# Temporary build/render caches
+__pycache__/
+*.pyc
+frames_*/
+_concat*.txt
+*.blend1
+Thumbs.db
+.DS_Store
